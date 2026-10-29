@@ -54,7 +54,7 @@ class Ball(Stuff):
             elif self.rect.colliderect(player2):
                 self.rect.x -= 10
             self.speed *= -1
-font = font.Font(None, 85)
+font = font.Font(None, 75)
 col = None
 wn_con = None
 ball = Ball('rocket.png', 30, 30, 5, 350, 200, 5)
